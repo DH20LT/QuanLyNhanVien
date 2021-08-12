@@ -1,0 +1,14 @@
+C:\Users\taqua\source\repos\StaffManager\obj\Debug\StaffManager.csproj.AssemblyReference.cache
+C:\Users\taqua\source\repos\StaffManager\obj\Debug\StaffManager.csproj.CoreCompileInputs.cache
+C:\Users\taqua\source\repos\StaffManager\bin\Debug\StaffManager.exe.config
+C:\Users\taqua\source\repos\StaffManager\bin\Debug\StaffManager.exe
+C:\Users\taqua\source\repos\StaffManager\bin\Debug\StaffManager.pdb
+C:\Users\taqua\source\repos\StaffManager\obj\Debug\StaffManager.exe
+C:\Users\taqua\source\repos\StaffManager\obj\Debug\StaffManager.pdb
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\obj\Debug\StaffManager.csproj.AssemblyReference.cache
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\obj\Debug\StaffManager.csproj.CoreCompileInputs.cache
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\bin\Debug\StaffManager.exe.config
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\bin\Debug\StaffManager.exe
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\bin\Debug\StaffManager.pdb
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\obj\Debug\StaffManager.exe
+C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\obj\Debug\StaffManager.pdb
