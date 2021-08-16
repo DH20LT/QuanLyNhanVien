@@ -10,9 +10,17 @@ namespace StaffManager
     {
         // Thuộc tính
         protected string Ten;
+        public string getTen()  { return Ten; }
+        public void setTen(string ten) { Ten = ten; }
         protected int Tuoi;
+        public int getTuoi() { return Tuoi; }
+        public void setTuoi(int tuoi) { Tuoi = tuoi; }
         protected string GioiTinh;
+        public string getGioiTinh() { return GioiTinh; }
+        public void setGioiTinh(string gioiTinh) { GioiTinh = gioiTinh; }
         protected string NgaySinh;
+        public string getNgaySinh() { return NgaySinh; }
+        public void setNgaySinh(string ngaySinh) { NgaySinh = ngaySinh; }
         protected int LoaiDoiTuong; // Khach = 1 ; Staff = 2;
 
         // Phương thức
@@ -54,14 +62,7 @@ namespace StaffManager
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Ten la: " + Ten);
             Console.WriteLine("Tuoi la: " + Tuoi);
-            if(GioiTinh == "Nam" || GioiTinh == "Nu")
-            {
-                Console.WriteLine("Gioi tinh la: " + GioiTinh);
-            }
-            else
-            {
-                Console.WriteLine("Khong co gioi tinh nay");
-            }
+            Console.WriteLine("Gioi tinh la: " + GioiTinh);
             Console.WriteLine("Ngay sinh la: " + NgaySinh);
         }
     }
