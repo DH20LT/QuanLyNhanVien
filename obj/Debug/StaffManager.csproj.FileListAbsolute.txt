@@ -12,3 +12,10 @@ C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\bin\Deb
 C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\bin\Debug\StaffManager.pdb
 C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\obj\Debug\StaffManager.exe
 C:\Users\taqua\OneDrive\Project\Programming Project\C-Sharp\StaffManager\obj\Debug\StaffManager.pdb
+D:\GitHub\SendToTeacher\QuanLyNhanVien\bin\Debug\StaffManager.exe.config
+D:\GitHub\SendToTeacher\QuanLyNhanVien\bin\Debug\StaffManager.exe
+D:\GitHub\SendToTeacher\QuanLyNhanVien\bin\Debug\StaffManager.pdb
+D:\GitHub\SendToTeacher\QuanLyNhanVien\obj\Debug\StaffManager.csproj.AssemblyReference.cache
+D:\GitHub\SendToTeacher\QuanLyNhanVien\obj\Debug\StaffManager.csproj.CoreCompileInputs.cache
+D:\GitHub\SendToTeacher\QuanLyNhanVien\obj\Debug\StaffManager.exe
+D:\GitHub\SendToTeacher\QuanLyNhanVien\obj\Debug\StaffManager.pdb

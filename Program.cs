@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
 
 namespace StaffManager
 {
@@ -13,23 +9,23 @@ namespace StaffManager
         {
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
-            Console.Title = "Phần Mề Quản Lý Nhân Sự";
+            Console.Title = "Phần Mềm Quản Lý Nhân Sự";
             int i = 0;
             
-            int iHuman = 1;
+            int iHuman = 1; // Lượng người
             Human[] listHuman = new Human[50];
-            Console.WriteLine("1. Thêm nhân viên");
-            Console.WriteLine("2. Thêm khách hàng");
-            Console.WriteLine("3. Hiện tất cả danh sách nhân viên");
-            Console.WriteLine("4. Hiện tất cả danh sách khách hàng ");
-            Console.WriteLine("5. Hiện tất cả danh sách");
-            Console.WriteLine("6. Thống kê khách hàng");
-            Console.WriteLine("7. Thoát");
-            Console.Write("Nhập chức năng bạn muốn sự dụng: ");
-
-            while (i < 50)
+            do
             {
-                int ThuTu = 1;
+                Console.Clear();
+                Console.WriteLine("1. Thêm nhân viên");
+                Console.WriteLine("2. Thêm khách hàng");
+                Console.WriteLine("3. Hiện tất cả danh sách nhân viên");
+                Console.WriteLine("4. Hiện tất cả danh sách khách hàng ");
+                Console.WriteLine("5. Hiện tất cả danh sách");
+                Console.WriteLine("6. Thống kê khách hàng");
+                Console.WriteLine("7. Thoát");
+                Console.Write("Nhập chức năng bạn muốn sự dụng: ");
+                int ThuTu;
                 int ChucNang = int.Parse(Console.ReadLine());
                 switch (ChucNang)
                 {
@@ -57,36 +53,43 @@ namespace StaffManager
                                     listHuman[ThuTu].XuatThongTin();
                                 }
                             }
+                            Console.ReadKey();
                             break;
                         }
                     case 4: //Hiện Cus
                         {
                             for (ThuTu = 1; ThuTu < iHuman; ThuTu++)
 
-                            {   if (listHuman[ThuTu].getLoaiDoiTuong() == 1)
+                            { if (listHuman[ThuTu].getLoaiDoiTuong() == 1)
                                 {
                                     listHuman[ThuTu].XuatThongTin();
                                 }
                             }
+                            Console.ReadKey();
                             break;
                         }
                     case 5: //Hiện tất cả
                         {
-                            while (ThuTu < iHuman)
+                            for (ThuTu = 1; ThuTu < iHuman; ThuTu++)
                             {
                                 listHuman[ThuTu].XuatThongTin();
-                                ThuTu++;
                             }
+                            Console.ReadKey();
                             break;
                         }
                     case 6: //Thống kê khách hàng
                         {
-                            int TongKhach = 0;
-                            while (ThuTu < iHuman && listHuman[ThuTu].getLoaiDoiTuong() == 1)
+                            // count how many customers in the list
+                            int CustomerCount = 0;
+                            for (ThuTu = 1; ThuTu < iHuman; ThuTu++)
                             {
-                                TongKhach++;
+                                if (listHuman[ThuTu].getLoaiDoiTuong() == 1)
+                                {
+                                    CustomerCount++;
+                                }
                             }
-                            Console.WriteLine(TongKhach);
+                            Console.WriteLine("Có {0} khách hàng trong danh sách", CustomerCount);
+                            Console.ReadKey();
                             break;
                         }
                     default:
@@ -94,8 +97,7 @@ namespace StaffManager
                 }
                 i++;
                 Console.Write("------------------------------");
-            }
-            Console.ReadKey();
+            }while (true);
         }
     }
 }
